@@ -1,0 +1,30 @@
+.meal-item-form{
+        display: flex;
+        flex-wrap: wrap;
+        width: 20%;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content: space-around;
+}
+.meal-item-form input{
+        width: 32px;
+        height: 1.5rem;
+        margin: 2px;
+}
+.meal-item-form h3{
+        margin: 0px;
+}
+
+
+.meal-item-form button{
+        margin: 2px;
+        padding: 2px;
+        width: 60%;
+        background-color: brown;
+        height: 40px;
+        border-radius: 20px;
+        color: white;
+        font-size: large;
+        font-weight: bold;
+}

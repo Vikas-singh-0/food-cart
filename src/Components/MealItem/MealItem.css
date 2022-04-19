@@ -1,0 +1,29 @@
+.mealItem {
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.mealItem h3,
+h6,
+h2 {
+  margin: 5px 0px;
+}
+.mealItem h2 {
+  color: rgb(215, 149, 18);
+}
+.mealItem h3 {
+  font-weight: bolder;
+  font-size: x-large;
+}
+.mealItem h6{
+        font-style: italic;
+        font-weight: normal;
+        font-size: larger;
+}
+
+.main-div{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 0.5px solid black;
+}
