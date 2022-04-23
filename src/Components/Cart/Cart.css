@@ -1,0 +1,46 @@
+.total-amount {
+  padding: 10px 20px 10px 10px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.total-amount span {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.action-items {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 20px 10px 10px;
+}
+.action-items button {
+  padding: 10px;
+  border-radius: 20px;
+  width: 6rem;
+  margin: 0px 4px;
+}
+.close-btn {
+  border: solid brown 1px;
+  color: brown;
+  background: rgb(255, 255, 255);
+}
+.order-btn {
+  color: rgb(255, 255, 255);
+  background: rgb(122, 8, 8);
+}
+
+.order-btn:hover,
+.close-btn:hover {
+  animation: ani 500ms linear 0s infinite alternate;
+}
+
+@keyframes ani {
+  0% {
+    color: rgb(255, 255, 255);
+    background: rgb(122, 8, 8);
+  }
+  100% {
+    color: black;
+    background-color: beige;
+  }
+}
